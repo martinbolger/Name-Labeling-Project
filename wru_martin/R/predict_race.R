@@ -97,7 +97,10 @@
 ## Race Prediction Function
 predict_race <- function(voter.file, 
                            census.surname = TRUE, surname.only = FALSE, surname.year = 2010, 
-                           census.geo, census.key, census.data = NA, age = FALSE, sex = FALSE, party, retry = 0, first_name = TRUE) {
+                           census.geo, census.key, census.data = NA, age = FALSE, sex = FALSE, party, retry = 0, first_name = TRUE, surname = TRUE) {
+  
+  # pop_race = c(0.6374749681402683, 0.12608868536911456,0.1634925457610986, 0.0475286285756784, 0.1023130640352768)
+  pop_race = c(196817552,  38929319,  50477594, 14674252, 31588702)
   print('Correct')
   
   if (!missing(census.geo) && (census.geo == "precinct")) {
@@ -234,9 +237,9 @@ predict_race <- function(voter.file,
                                 sex = sex, 
                                 census.data = census.data, retry = retry)
   }
-  
+  # return(voter.file)
   ## Pr(Race | Surname, Geolocation, First Name)
-  if (missing(party) && first_name) {
+  if (missing(party) && first_name && surname) {
     for (k in 1:length(eth)) {
       voter.file[paste("u", eth[k], sep = "_")] <- voter.file[paste("p", eth[k], sep = "_")] * voter.file[paste("r", eth[k], sep = "_")] *voter.file[paste("f", eth[k], sep = "_")]
     }
@@ -247,13 +250,23 @@ predict_race <- function(voter.file,
   }
   
   ## Pr(Race | Surname, Geolocation)
-  if (missing(party) && first_name == F) {
+  if (missing(party) && first_name == F && surname) {
     for (k in 1:length(eth)) {
       voter.file[paste("u", eth[k], sep = "_")] <- voter.file[paste("p", eth[k], sep = "_")] * voter.file[paste("r", eth[k], sep = "_")]
     }
     voter.file$u_tot <- apply(voter.file[paste("u", eth, sep = "_")], 1, sum, na.rm = T)
     for (k in 1:length(eth)) {
       voter.file[paste("q", eth[k], sep = "_")] <- voter.file[paste("u", eth[k], sep = "_")] / voter.file$u_tot
+    }
+  }
+  
+  ## Pr(Race |Geolocation)
+  if (missing(party) && first_name == F && surname == F) {
+    # for (k in 1:length(eth)) {
+    #   voter.file[paste("u", eth[k], sep = "_")] <- voter.file[paste("r", eth[k], sep = "_")]*pop_race[k]
+    # }
+    for (k in 1:length(eth)) {
+      voter.file[paste("q", eth[k], sep = "_")] <- voter.file[paste("g", eth[k], sep = "_")]
     }
   }
   
@@ -273,5 +286,5 @@ predict_race <- function(voter.file,
   }
   pred <- paste("pred", eth, sep = ".")
   
-  return(voter.file[c(vars.orig, pred)])
+  return(voter.file[c(vars.orig, pred, 'pop_totals')])
 }

@@ -149,9 +149,16 @@ census_helper <- function(key, voter.file, states = "all", geo = "tract", age = 
       census$r_asi <- (census$P005006 + census$P005007) / (sum(census$P005006) + sum(census$P005007)) #Pr(Tract | Asian or NH/PI)
       census$r_oth <- (census$P005005 + census$P005008 + census$P005009) / (sum(census$P005005) + sum(census$P005008) + sum(census$P005009)) #Pr(Tract | AI/AN, Other, or Mixed)
       
+      census$pop_totals = rowSums(census[,3:10])
+      
+      census$g_whi <- census$P005003/census$pop_totals
+      census$g_bla <- census$P005004/census$pop_totals
+      census$g_his <- census$P005010/census$pop_totals
+      census$g_asi <- (census$P005006 + census$P005007)/census$pop_totals
+      census$g_oth <- (census$P005005 + census$P005008 + census$P005009)/census$pop_totals
+      
       drop <- c(grep("state", names(census)), grep("P005", names(census)))
       voters.census <- merge(voter.file[toupper(voter.file$state) == toupper(states[s]), ], census[, -drop], by = geo.merge, all.x  = T)
-      
     }
     
     if (age == F & sex == T) {
@@ -268,7 +275,7 @@ census_helper <- function(key, voter.file, states = "all", geo = "tract", age = 
     }
     
     keep.vars <- c(names(voter.file)[names(voter.file) != "agecat"], 
-                   paste("r", c("whi", "bla", "his", "asi", "oth"), sep = "_"))
+                   paste("r", c("whi", "bla", "his", "asi", "oth"), sep = "_"), paste("g", c("whi", "bla", "his", "asi", "oth"), sep = "_"), 'pop_totals')
     df.out <- as.data.frame(rbind(df.out, voters.census[keep.vars]))
     
   }
