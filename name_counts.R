@@ -3,7 +3,7 @@ library(dplyr)
 library(tidyverse)
 
 
-name_zip_data = read.csv(file = "name_zip_fips_state_with_names.csv", colClasses = c("county" = "character"))
+name_zip_data = read.csv(file = "Dec_12_name_zip_fips_state_with_names.csv", colClasses = c("county" = "character"))
 
 name_zip_data$first.name = gsub("[[:punct:]]", "", name_zip_data$first.name)
 

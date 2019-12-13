@@ -9,7 +9,9 @@ write_files <- function(bool_indx, file_name){
   write.csv(missing_data, file = file_name)
 }
 
-name_zip_data = read.csv(file = "name_zip_fips_state_with_names.csv", colClasses = c("county" = "character"))
+#Load all the csv files
+
+name_zip_data = read.csv(file = "Dec_12_name_zip_fips_state_with_names.csv", colClasses = c("county" = "character"))
 
 name_zip_data$first.name = gsub("[[:punct:]]", "", name_zip_data$first.name)
 
@@ -20,7 +22,6 @@ name_zip_data$surname.name.upper <- toupper(as.character(name_zip_data$surname))
 
 #Find missing surnames
 surname_match_indx = name_zip_data$surname.name.upper %in% surnames2010$surname
-
 
 
 #Create missing surnames in data
