@@ -11,7 +11,7 @@ write_files <- function(bool_indx, file_name){
 
 #Load all the csv files
 
-name_zip_data = read.csv(file = "Dec_12_name_zip_fips_state_with_names.csv", colClasses = c("county" = "character"))
+name_zip_data = read.csv(file = "Dec_18_name_zip_fips_state_with_names.csv", colClasses = c("county" = "character"))
 
 name_zip_data$first.name = gsub("[[:punct:]]", "", name_zip_data$first.name)
 

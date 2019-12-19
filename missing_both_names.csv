@@ -1,160 +1,160 @@
-"","X.1","X","surname","first.name","name","state","county","surname.name.upper","first.name.upper","first_name_counts","surname_counts"
-"1",5,4,"Orederu","Omotayo","A Omotayo Orederu","ny","085","OREDERU","OMOTAYO",1,1
-"2",171,170,"Anarado","AdoLisa","AdoLisa Anarado","mo","095","ANARADO","ADOLISA",1,1
-"3",204,203,"Moshaiv","Aksana","Aksana Moshaiv","ca","037","MOSHAIV","AKSANA",1,1
-"4",206,205,"Iacocca","","Al Iacocca, Esquire","pa","029","IACOCCA","",NA,1
-"5",208,207,"Schallau","","Al Schallau","ca","037","SCHALLAU","",NA,1
-"6",210,209,"Tamuno","Alali","Alali M Tamuno","ny","119","TAMUNO","ALALI",1,1
-"7",313,313,"Dunisha","Alban","Alban Dunisha","ny","061","DUNISHA","ALBAN",1,1
-"8",545,546,"Stempuzis","Almis","Almis Joseph Stempuzis","oh","035","STEMPUZIS","ALMIS",1,1
-"9",608,609,"Padron-Fragetta","Ameli","Ameli Padron-Fragetta","fl","086","PADRON-FRAGETTA","AMELI",1,1
-"10",677,678,"Svikis","Andis","Andis Svikis","mi","077","SVIKIS","ANDIS",1,1
-"11",1019,1020,"Damianakis","Anthone","Anthone R. Damianakis","fl","103","DAMIANAKIS","ANTHONE",1,1
-"12",1197,1198,"Majlessi","Ardeshir","Ardeshir Majlessi","ca","037","MAJLESSI","ARDESHIR",1,1
-"13",1210,1212,"Vegte","Arlo","Arlo H. Vande Vegte","mn","053","VEGTE","ARLO",2,1
-"14",1216,1218,"Bazikyan","Armine","Armine Bazikyan","ca","037","BAZIKYAN","ARMINE",1,1
-"15",1322,1324,"Mergus","Athan","Athan M. Mergus","nj","003","MERGUS","ATHAN",1,1
-"16",1329,1331,"Delahoussaye-Turner","Audre","Audre LaVon Delahoussaye-Turner","ca","037","DELAHOUSSAYE-TURNER","AUDRE",1,1
-"17",1337,1339,"Gonano","Aulo","Aulo I. Gonano","mi","163","GONANO","AULO",1,1
-"18",1354,1356,"Mojarad","Azita","Azita M. Mojarad","il","031","MOJARAD","AZITA",1,1
-"19",1598,1600,"Zurofsky","Bennet","Bennet D. Zurofsky","nj","013","ZUROFSKY","BENNET",1,1
-"20",1764,1766,"Hallowes","Borden","Borden R. Hallowes","fl","089","HALLOWES","BORDEN",1,1
-"21",1872,1874,"Pezzaglia","Braid","Braid Pezzaglia","ca","085","PEZZAGLIA","BRAID",1,1
-"22",1873,1875,"Gechtman","Bram","Bram J. Gechtman","fl","086","GECHTMAN","BRAM",1,1
-"23",1903,1905,"Hamstead","Braun","Braun A. Hamstead","wv","037","HAMSTEAD","BRAUN",1,1
-"24",3216,3218,"Opaigbeogu","Chiemeka","Chiemeka C. Opaigbeogu","dc","001","OPAIGBEOGU","CHIEMEKA",1,1
-"25",3257,3259,"Grigoropoulos","Chrissy","Chrissy Grigoropoulos, Esq.","ny","081","GRIGOROPOULOS","CHRISSY",1,1
-"26",3581,3583,"Odelugo","Chukwuma","Chukwuma I Odelugo","md","033","ODELUGO","CHUKWUMA",1,1
-"27",3592,3594,"Slyke","Clague","Clague Van Slyke III.","az","019","SLYKE","CLAGUE",1,2
-"28",3657,3660,"Verlato","Cletus","Cletus R Verlato","ca","037","VERLATO","CLETUS",1,1
-"29",3874,3877,"Voightmann","Craigg","Craigg M. Voightmann","az","013","VOIGHTMANN","CRAIGG",1,1
-"30",3891,3894,"Pajcic","Curry","Curry Pajcic","fl","031","PAJCIC","CURRY",1,1
-"31",3956,3959,"Bass-Frazier","BassFrazier","D. A. Bass-Frazier","al","097","BASS-FRAZIER","BASSFRAZIER",1,1
-"32",3992,3996,"Samsil","","D. M. Samsil","al","073","SAMSIL","",NA,1
-"33",5686,5692,"Dejvongsa","Dokor","Dokor Dejvongsa","mn","053","DEJVONGSA","DOKOR",1,1
-"34",5917,5923,"Lallos","Donatos","Donatos E Lallos","ma","017","LALLOS","DONATOS",1,1
-"35",6113,6119,"Nweze","Ike","Dr. Ike C. Nweze","tx","157","NWEZE","IKE",2,1
-"36",6176,6182,"Martinez-Tenreiro","MartinezTenreiro","E T Martinez-Tenreiro","co","031","MARTINEZ-TENREIRO","MARTINEZTENREIRO",1,1
-"37",6177,6183,"Apffel","","E. A. Apffel III.","tx","167","APFFEL","",NA,1
-"38",6223,6229,"Gozigian","Garo","E. W. Garo Gozigian","ny","077","GOZIGIAN","GARO",2,1
-"39",6286,6293,"Garrabrants","Edson","Edson Leonard Garrabrants Jr.","fl","101","GARRABRANTS","EDSON",1,1
-"40",6550,6559,"Chemerinski","Eliel","Eliel Chemerinski","ca","037","CHEMERINSKI","ELIEL",1,1
-"41",6653,6662,"McGohey","Elsabeth","Elsabeth D. McGohey","nh","011","MCGOHEY","ELSABETH",1,1
-"42",6901,6910,"Nafisi","Esfand","Esfand Nafisi","ca","075","NAFISI","ESFAND",1,1
-"43",7031,7040,"Kantartzis","Fani","Fani Kantartzis","md","031","KANTARTZIS","FANI",1,1
-"44",7037,7046,"Eidi","Faten","Faten Eidi","oh","095","EIDI","FATEN",1,1
-"45",7253,7262,"Mok-Wang","Frannie","Frannie S Mok-Wang","ca","001","MOK-WANG","FRANNIE",1,1
-"46",7369,7378,"Jarbath","Fritznie","Fritznie Abigail Jarbath","fl","086","JARBATH","FRITZNIE",1,1
-"47",7460,7469,"Schwippert","Gar","Gar N. Schwippert","ms","049","SCHWIPPERT","GAR",1,1
-"48",7707,7716,"Garatt","Geordie","Geordie D. Garatt","ky","145","GARATT","GEORDIE",1,1
-"49",8020,8029,"Mecadon","Girard","Girard J Mecadon","pa","079","MECADON","GIRARD",1,1
-"50",8089,8098,"Onyediri","Godson","Godson C. Onyediri","tx","201","ONYEDIRI","GODSON",2,1
-"51",8090,8099,"Nnaka","Godson","Godson M. Nnaka","md","510","NNAKA","GODSON",2,1
-"52",8091,8100,"Kasich","Gojko","Gojko Kasich","in","127","KASICH","GOJKO",1,1
-"53",8092,8101,"Fozi","Golnar","Golnar J. Fozi","ca","073","FOZI","GOLNAR",1,1
-"54",8428,8439,"Lowendick","Durance","H. Durance Lowendick","ga","135","LOWENDICK","DURANCE",1,1
-"55",8472,8483,"Jawharjian","Hagop","Hagop S. Jawharjian","ri","007","JAWHARJIAN","HAGOP",1,1
-"56",8499,8510,"Calehr","Haroen","Haroen Calehr","tx","201","CALEHR","HAROEN",1,1
-"57",8858,8870,"Norsigian","Hrant","Hrant Norsigian, Esq.","il","163","NORSIGIAN","HRANT",1,1
-"58",8884,8896,"Goncalves-Babbitt","Humberta","Humberta M. Goncalves-Babbitt","ri","001","GONCALVES-BABBITT","HUMBERTA",1,1
-"59",8919,8931,"Hillencamp","Ibis","Ibis J. Hillencamp","fl","086","HILLENCAMP","IBIS",1,1
-"60",8925,8937,"Udeani","Ignatius","Ignatius Udeani","mn","053","UDEANI","IGNATIUS",1,1
-"61",8927,8939,"Mbamali","Ikechukwu","Ikechukwu A Mbamali","ny","005","MBAMALI","IKECHUKWU",2,1
-"62",8928,8940,"Umeugo","Ikechukwu","Ikechukwu Umeugo","ct","009","UMEUGO","IKECHUKWU",2,1
-"63",8936,8948,"Khashmati","Inara","Inara F. Khashmati","ny","081","KHASHMATI","INARA",1,1
-"64",8940,8952,"Champon","Into","Into Bo Champon","ca","037","CHAMPON","INTO",1,1
-"65",8962,8974,"Nasrullah","Irfan","Irfan Nasrullah","vt","017","NASRULLAH","IRFAN",1,1
-"66",8963,8975,"Blitshtein","Iriana","Iriana Blitshtein","pa","017","BLITSHTEIN","IRIANA",1,1
-"67",8969,8981,"Lamel","Irv","Irv J. Lamel","fl","086","LAMEL","IRV",1,1
-"68",9002,9014,"Longeteig","Iver","Iver J. Longeteig","id","001","LONGETEIG","IVER",1,1
-"69",9005,9017,"Callwood-Tahir","CallwoodTahir","J B Callwood-Tahir","ny","061","CALLWOOD-TAHIR","CALLWOODTAHIR",1,1
-"70",9041,9053,"Slyke","Arby","J. Arby Van Slyke","fl","033","SLYKE","ARBY",1,2
-"71",9236,9248,"Stoep","Vander","J. Vander Stoep","wa","041","STOEP","VANDER",1,1
-"72",9246,9258,"Aparisi","Winthuysen","J. Winthuysen Aparisi","dc","001","APARISI","WINTHUYSEN",1,1
-"73",9250,9262,"Gonzalez-Sirgo","GonzalezSirgo","J.p. Gonzalez-Sirgo","fl","086","GONZALEZ-SIRGO","GONZALEZSIRGO",1,1
-"74",10193,10206,"Shabrami","Jamiyl","Jamiyl Shabrami","ca","059","SHABRAMI","JAMIYL",1,1
-"75",10255,10268,"McKamey-Lopes","Janne","Janne McKamey-Lopes","ga","121","MCKAMEY-LOPES","JANNE",1,1
-"76",10451,10464,"Torres-Lugo","Jazmin","Jazmin G. Torres-Lugo","oh","035","TORRES-LUGO","JAZMIN",1,1
-"77",11049,11063,"Nemarow","Jeryl","Jeryl Lynn Nemarow","ny","119","NEMAROW","JERYL",1,1
-"78",11098,11112,"Smaili","Jihad","Jihad M. Smaili","oh","035","SMAILI","JIHAD",1,1
-"79",13532,13548,"Caubarreaux","Keller","Keller Caubarreaux","co","077","CAUBARREAUX","KELLER",1,1
-"80",14018,14036,"Chrisomallides","Kiki","Kiki Chrisomallides","ny","119","CHRISOMALLIDES","KIKI",1,1
-"81",14062,14080,"Leyser-Vercher","Kimmie","Kimmie Beard Leyser-Vercher","la","079","LEYSER-VERCHER","KIMMIE",1,1
-"82",14092,14110,"Tysman","Kissandra","Kissandra Lorelle Tysman","az","013","TYSMAN","KISSANDRA",1,1
-"83",14095,14113,"Bazianos","Konstandeno","Konstandeno S Bazianos","il","043","BAZIANOS","KONSTANDENO",1,1
-"84",14201,14219,"Slege","","L D Slege","la","033","SLEGE","",NA,1
-"85",14203,14221,"Romolini","Gazzara","L Gazzara Romolini","pa","101","ROMOLINI","GAZZARA",1,1
-"86",14240,14258,"Buholz","Laddie","Laddie Allen Buholz","fl","095","BUHOLZ","LADDIE",1,1
-"87",14246,14264,"Concepcion-Veloso","Laline","Laline Concepcion-Veloso","fl","086","CONCEPCION-VELOSO","LALINE",1,1
-"88",14249,14267,"Forghany","Lamya","Lamya A. Forghany, Esq.","ma","009","FORGHANY","LAMYA",1,1
-"89",14272,14290,"Pollans","Lannie","Lannie A Pollans","il","031","POLLANS","LANNIE",1,1
-"90",14369,14388,"Korduba","Laryssa","Laryssa Maria Korduba","tx","201","KORDUBA","LARYSSA",1,2
-"91",14567,14586,"Reddick-Hood","Laxavier","Laxavier P. Reddick-Hood","ga","135","REDDICK-HOOD","LAXAVIER",1,1
-"92",14580,14599,"King-Wade","Lecia","Lecia C. King-Wade","ga","121","KING-WADE","LECIA",1,1
-"93",14767,14786,"Copeley","Leto","Leto Copeley","nc","063","COPELEY","LETO",1,1
-"94",14768,14787,"Merryday","Lew","Lew A. Merryday Jr.","fl","107","MERRYDAY","LEW",1,1
-"95",14786,14805,"Herrera-Navarrete","Librada","Librada G. Herrera-Navarrete","fl","086","HERRERA-NAVARRETE","LIBRADA",1,1
-"96",15074,15094,"Aprigliano","Ludovico","Ludovico Aprigliano","nj","027","APRIGLIANO","LUDOVICO",1,1
-"97",15093,15113,"Makohin","Lundy","Lundy Partin Makohin","ok","109","MAKOHIN","LUNDY",2,1
-"98",15149,15170,"Marchan-Mankus","MarchanMankus","M Marchan-Mankus","il","089","MARCHAN-MANKUS","MARCHANMANKUS",1,1
-"99",15192,15213,"Padway","Nicol","M. Nicol Padway","wi","079","PADWAY","NICOL",2,1
-"100",15211,15232,"Deorchis","","M.E. Deorchis","ny","061","DEORCHIS","",NA,2
-"101",15215,15236,"Ekpenisi","Macauley","Macauley Ekpenisi","ca","037","EKPENISI","MACAULEY",1,1
-"102",15233,15254,"Esteban-Trinidad","Maile","Maile Lani Esteban-Trinidad","nv","003","ESTEBAN-TRINIDAD","MAILE",1,1
-"103",15260,15281,"Holadia","Manolita","Manolita Akiko Holadia","va","810","HOLADIA","MANOLITA",1,1
-"104",15403,15425,"Kostorizos","MariaElena","Maria-Elena Kostorizos","ma","017","KOSTORIZOS","MARIAELENA",1,1
-"105",15428,15451,"Czapelski","Marica","Marica L Czapelski","nj","039","CZAPELSKI","MARICA",1,1
-"106",15429,15452,"Tahimic","Marichelle","Marichelle Tahimic","ca","071","TAHIMIC","MARICHELLE",1,1
-"107",15467,15490,"Karayannis","Marios","Marios Karayannis","il","089","KARAYANNIS","MARIOS",1,1
-"108",15468,15491,"Rushevics","Maris","Maris Rushevics","wi","097","RUSHEVICS","MARIS",1,1
-"109",15901,15924,"Jeep","Markham","Markham M. Jeep","il","097","JEEP","MARKHAM",1,1
-"110",15933,15956,"Vehik","Mart","Mart Vehik","ar","119","VEHIK","MART",2,1
-"111",16045,16068,"Sterbcow","Marx","Marx David Sterbcow","la","071","STERBCOW","MARX",1,1
-"112",16117,16141,"Sherrett","Maryhelen","Maryhelen Sherrett","or","005","SHERRETT","MARYHELEN",1,1
-"113",16123,16147,"Slechter","Mat","Mat A Slechter","ky","111","SLECHTER","MAT",1,1
-"114",16124,16148,"Rimac","Mate","Mate Rimac","oh","133","RIMAC","MATE",1,1
-"115",16132,16156,"Jarve","Mati","Mati Jarve","nj","005","JARVE","MATI",1,1
-"116",16340,16364,"Savoiardo","Maurizio","Maurizio Savoiardo III","ny","061","SAVOIARDO","MAURIZIO",2,1
-"117",16407,16431,"Mkrtichian","Meline","Meline Mkrtichian","ca","037","MKRTICHIAN","MELINE",1,1
-"118",16456,16480,"Jean-Jerome","Menez","Menez Jean-Jerome","ny","081","JEAN-JEROME","MENEZ",1,1
-"119",16475,16499,"Elijaouhari","Mervatt","Mervatt F. Elijaouhari","la","071","ELIJAOUHARI","MERVATT",1,1
-"120",17683,17708,"Muscante","Falco","Mr. Falco A. Muscante, Esq","pa","003","MUSCANTE","FALCO",1,1
-"121",17736,17761,"Austin-Trucks","Pratt","Ms. J. Pratt Austin-Trucks","al","051","AUSTIN-TRUCKS","PRATT",1,1
-"122",17785,17810,"Naumoski","Nace","Nace Naumoski","nj","039","NAUMOSKI","NACE",1,1
-"123",17825,17850,"Palissery","Nanda","Nanda Palissery","pa","079","PALISSERY","NANDA",1,1
-"124",17951,17976,"Kompier","Nels","Nels A. Kompier","in","089","KOMPIER","NELS",1,1
-"125",18043,18069,"Hanyard","Nicol","Nicol Joy Hanyard","ga","121","HANYARD","NICOL",2,1
-"126",18065,18091,"Mehanna","Nijad","Nijad Georges Mehanna","mi","099","MEHANNA","NIJAD",1,1
-"127",18094,18120,"Drafahl","Noland","Noland D. Drafahl","mo","189","DRAFAHL","NOLAND",1,1
-"128",18154,18180,"Meroueh","Odey","Odey K. Meroueh","mi","163","MEROUEH","ODEY",1,1
-"129",18157,18183,"Maduforo","Okwy","Okwy Maduforo","tx","113","MADUFORO","OKWY",1,1
-"130",18160,18186,"Dekajlo","Oleh","Oleh N. Dekajlo, Esq.","ny","059","DEKAJLO","OLEH",2,1
-"131",18161,18187,"Podryhula","Oleh","Oleh Podryhula","ma","001","PODRYHULA","OLEH",2,1
-"132",18223,18250,"Wohlner","Pacey","Pacey L Wohlner","mo","095","WOHLNER","PACEY",1,1
-"133",18262,18289,"Topalis","Panos","Panos T. Topalis","il","031","TOPALIS","PANOS",1,1
-"134",18786,18816,"Ben-Cohen","Pejman","Pejman A. Ben-Cohen","ca","037","BEN-COHEN","PEJMAN",1,1
-"135",18797,18827,"Nawawi","Peri","Peri S Nawawi","ma","017","NAWAWI","PERI",1,1
-"136",19139,19169,"Stakelum","Piercy","Piercy Joseph Stakelum IV.","fl","095","STAKELUM","PIERCY",1,1
-"137",19208,19238,"Eaglesfield","Davy","R. Davy Eaglesfield","in","157","EAGLESFIELD","DAVY",1,1
-"138",19229,19259,"Vanzego","","R. J. Vanzego Jr.","md","033","VANZEGO","",NA,1
-"139",19368,19398,"Bahrawy","Ramsey","Ramsey A. Bahrawy","ma","009","BAHRAWY","RAMSEY",1,1
-"140",19369,19399,"Sheeno","Ramsin","Ramsin Sheeno","ca","037","SHEENO","RAMSIN",1,1
-"141",19370,19400,"Sadighim","Ramtin","Ramtin Sadighim","ca","037","SADIGHIM","RAMTIN",1,1
-"142",19651,19682,"Atie","Remond","Remond A. Atie, Esq.","mi","125","ATIE","REMOND",1,1
-"143",19700,19732,"Kwentua","Rica","Rica Harris Kwentua","la","033","KWENTUA","RICA",1,1
-"144",21221,21256,"Cantacuzene","Rodion","Rodion Cantacuzene Jr.","tx","329","CANTACUZENE","RODION",1,1
-"145",21574,21610,"Sharifov","Rovshan","Rovshan Sharifov, Esq.","ny","059","SHARIFOV","ROVSHAN",1,1
-"146",21764,21800,"Michelstetter","","S H Michelstetter II","wi","079","MICHELSTETTER","",NA,1
-"147",21800,21836,"Blaik","Salah","Salah E. Blaik, Esq.","pa","003","BLAIK","SALAH",1,1
-"148",23478,23515,"Nazif","","Sy J. Nazif, Esq.","ca","059","NAZIF","",NA,1
-"149",23522,23559,"Elkie","Tait","Tait D. Elkie","az","013","ELKIE","TAIT",1,1
-"150",23754,23791,"Basdekis","Theodoros","Theodoros Basdekis","ny","077","BASDEKIS","THEODOROS",1,1
-"151",24521,24563,"Salottolo","Tobi","Tobi R. Salottolo","ny","061","SALOTTOLO","TOBI",1,1
-"152",24752,24794,"Puntenney","Trysta","Trysta Puntenney","az","013","PUNTENNEY","TRYSTA",1,1
-"153",24789,24831,"Taenzer","Uri","Uri Hugo Taenzer","nj","005","TAENZER","URI",1,1
-"154",24821,24863,"Kirifides","Vasil","Vasil L Kirifides","pa","045","KIRIFIDES","VASIL",1,1
-"155",24826,24868,"Eskinde","Veleka","Veleka Eskinde","la","071","ESKINDE","VELEKA",1,1
-"156",24947,24989,"Chirica","Vlad","Vlad V. Chirica","il","031","CHIRICA","VLAD",1,1
-"157",25012,25054,"Bignault","Paschal","W. Paschal Bignault","ga","051","BIGNAULT","PASCHAL",1,1
-"158",25047,25089,"Scrantom","","W.G. Scrantom Jr.","ga","215","SCRANTOM","",NA,1
-"159",25935,25978,"Manjencich","Zora","Zora Manjencich","az","013","MANJENCICH","ZORA",1,1
+"","X","surname","first.name","name","state","county","surname.name.upper","first.name.upper"
+"5",4,"Orederu","Omotayo","A Omotayo Orederu","ny","085","OREDERU","OMOTAYO"
+"171",170,"Anarado","AdoLisa","AdoLisa Anarado","mo","095","ANARADO","ADOLISA"
+"204",203,"Moshaiv","Aksana","Aksana Moshaiv","ca","037","MOSHAIV","AKSANA"
+"206",205,"Iacocca","","Al Iacocca, Esquire","pa","029","IACOCCA",""
+"208",207,"Schallau","","Al Schallau","ca","037","SCHALLAU",""
+"210",209,"Tamuno","Alali","Alali M Tamuno","ny","119","TAMUNO","ALALI"
+"313",313,"Dunisha","Alban","Alban Dunisha","ny","061","DUNISHA","ALBAN"
+"545",546,"Stempuzis","Almis","Almis Joseph Stempuzis","oh","035","STEMPUZIS","ALMIS"
+"608",609,"Padron-Fragetta","Ameli","Ameli Padron-Fragetta","fl","086","PADRON-FRAGETTA","AMELI"
+"677",678,"Svikis","Andis","Andis Svikis","mi","077","SVIKIS","ANDIS"
+"1019",1020,"Damianakis","Anthone","Anthone R. Damianakis","fl","103","DAMIANAKIS","ANTHONE"
+"1197",1198,"Majlessi","Ardeshir","Ardeshir Majlessi","ca","037","MAJLESSI","ARDESHIR"
+"1210",1212,"Vegte","Arlo","Arlo H. Vande Vegte","mn","053","VEGTE","ARLO"
+"1216",1218,"Bazikyan","Armine","Armine Bazikyan","ca","037","BAZIKYAN","ARMINE"
+"1322",1324,"Mergus","Athan","Athan M. Mergus","nj","003","MERGUS","ATHAN"
+"1329",1331,"Delahoussaye-Turner","Audre","Audre LaVon Delahoussaye-Turner","ca","037","DELAHOUSSAYE-TURNER","AUDRE"
+"1337",1339,"Gonano","Aulo","Aulo I. Gonano","mi","163","GONANO","AULO"
+"1354",1356,"Mojarad","Azita","Azita M. Mojarad","il","031","MOJARAD","AZITA"
+"1598",1600,"Zurofsky","Bennet","Bennet D. Zurofsky","nj","013","ZUROFSKY","BENNET"
+"1764",1766,"Hallowes","Borden","Borden R. Hallowes","fl","089","HALLOWES","BORDEN"
+"1872",1874,"Pezzaglia","Braid","Braid Pezzaglia","ca","085","PEZZAGLIA","BRAID"
+"1873",1875,"Gechtman","Bram","Bram J. Gechtman","fl","086","GECHTMAN","BRAM"
+"1903",1905,"Hamstead","Braun","Braun A. Hamstead","wv","037","HAMSTEAD","BRAUN"
+"3216",3218,"Opaigbeogu","Chiemeka","Chiemeka C. Opaigbeogu","dc","001","OPAIGBEOGU","CHIEMEKA"
+"3257",3259,"Grigoropoulos","Chrissy","Chrissy Grigoropoulos, Esq.","ny","081","GRIGOROPOULOS","CHRISSY"
+"3581",3583,"Odelugo","Chukwuma","Chukwuma I Odelugo","md","033","ODELUGO","CHUKWUMA"
+"3592",3594,"Slyke","Clague","Clague Van Slyke III.","az","019","SLYKE","CLAGUE"
+"3657",3660,"Verlato","Cletus","Cletus R Verlato","ca","037","VERLATO","CLETUS"
+"3874",3877,"Voightmann","Craigg","Craigg M. Voightmann","az","013","VOIGHTMANN","CRAIGG"
+"3891",3894,"Pajcic","Curry","Curry Pajcic","fl","031","PAJCIC","CURRY"
+"3956",3959,"Bass-Frazier","BassFrazier","D. A. Bass-Frazier","al","097","BASS-FRAZIER","BASSFRAZIER"
+"3992",3996,"Samsil","","D. M. Samsil","al","073","SAMSIL",""
+"5688",5692,"Dejvongsa","Dokor","Dokor Dejvongsa","mn","053","DEJVONGSA","DOKOR"
+"5919",5923,"Lallos","Donatos","Donatos E Lallos","ma","017","LALLOS","DONATOS"
+"6115",6119,"Nweze","Ike","Dr. Ike C. Nweze","tx","157","NWEZE","IKE"
+"6178",6182,"Martinez-Tenreiro","MartinezTenreiro","E T Martinez-Tenreiro","co","031","MARTINEZ-TENREIRO","MARTINEZTENREIRO"
+"6179",6183,"Apffel","","E. A. Apffel III.","tx","167","APFFEL",""
+"6225",6229,"Gozigian","Garo","E. W. Garo Gozigian","ny","077","GOZIGIAN","GARO"
+"6288",6293,"Garrabrants","Edson","Edson Leonard Garrabrants Jr.","fl","101","GARRABRANTS","EDSON"
+"6552",6559,"Chemerinski","Eliel","Eliel Chemerinski","ca","037","CHEMERINSKI","ELIEL"
+"6655",6662,"McGohey","Elsabeth","Elsabeth D. McGohey","nh","011","MCGOHEY","ELSABETH"
+"6903",6910,"Nafisi","Esfand","Esfand Nafisi","ca","075","NAFISI","ESFAND"
+"7033",7040,"Kantartzis","Fani","Fani Kantartzis","md","031","KANTARTZIS","FANI"
+"7039",7046,"Eidi","Faten","Faten Eidi","oh","095","EIDI","FATEN"
+"7255",7262,"Mok-Wang","Frannie","Frannie S Mok-Wang","ca","001","MOK-WANG","FRANNIE"
+"7371",7378,"Jarbath","Fritznie","Fritznie Abigail Jarbath","fl","086","JARBATH","FRITZNIE"
+"7462",7469,"Schwippert","Gar","Gar N. Schwippert","ms","049","SCHWIPPERT","GAR"
+"7709",7716,"Garatt","Geordie","Geordie D. Garatt","ky","145","GARATT","GEORDIE"
+"8022",8029,"Mecadon","Girard","Girard J Mecadon","pa","069","MECADON","GIRARD"
+"8091",8098,"Onyediri","Godson","Godson C. Onyediri","tx","201","ONYEDIRI","GODSON"
+"8092",8099,"Nnaka","Godson","Godson M. Nnaka","md","510","NNAKA","GODSON"
+"8093",8100,"Kasich","Gojko","Gojko Kasich","in","073","KASICH","GOJKO"
+"8094",8101,"Fozi","Golnar","Golnar J. Fozi","ca","073","FOZI","GOLNAR"
+"8431",8439,"Lowendick","Durance","H. Durance Lowendick","ga","135","LOWENDICK","DURANCE"
+"8475",8483,"Jawharjian","Hagop","Hagop S. Jawharjian","ri","007","JAWHARJIAN","HAGOP"
+"8502",8510,"Calehr","Haroen","Haroen Calehr","tx","201","CALEHR","HAROEN"
+"8862",8870,"Norsigian","Hrant","Hrant Norsigian, Esq.","il","119","NORSIGIAN","HRANT"
+"8888",8896,"Goncalves-Babbitt","Humberta","Humberta M. Goncalves-Babbitt","ri","001","GONCALVES-BABBITT","HUMBERTA"
+"8923",8931,"Hillencamp","Ibis","Ibis J. Hillencamp","fl","086","HILLENCAMP","IBIS"
+"8929",8937,"Udeani","Ignatius","Ignatius Udeani","mn","053","UDEANI","IGNATIUS"
+"8931",8939,"Mbamali","Ikechukwu","Ikechukwu A Mbamali","ny","005","MBAMALI","IKECHUKWU"
+"8932",8940,"Umeugo","Ikechukwu","Ikechukwu Umeugo","ct","009","UMEUGO","IKECHUKWU"
+"8940",8948,"Khashmati","Inara","Inara F. Khashmati","ny","081","KHASHMATI","INARA"
+"8944",8952,"Champon","Into","Into Bo Champon","ca","037","CHAMPON","INTO"
+"8966",8974,"Nasrullah","Irfan","Irfan Nasrullah","vt","017","NASRULLAH","IRFAN"
+"8967",8975,"Blitshtein","Iriana","Iriana Blitshtein","pa","017","BLITSHTEIN","IRIANA"
+"8973",8981,"Lamel","Irv","Irv J. Lamel","fl","086","LAMEL","IRV"
+"9006",9014,"Longeteig","Iver","Iver J. Longeteig","id","001","LONGETEIG","IVER"
+"9009",9017,"Callwood-Tahir","CallwoodTahir","J B Callwood-Tahir","ny","061","CALLWOOD-TAHIR","CALLWOODTAHIR"
+"9045",9053,"Slyke","Arby","J. Arby Van Slyke","fl","033","SLYKE","ARBY"
+"9240",9248,"Stoep","Vander","J. Vander Stoep","wa","041","STOEP","VANDER"
+"9250",9258,"Aparisi","Winthuysen","J. Winthuysen Aparisi","dc","001","APARISI","WINTHUYSEN"
+"9254",9262,"Gonzalez-Sirgo","GonzalezSirgo","J.p. Gonzalez-Sirgo","fl","086","GONZALEZ-SIRGO","GONZALEZSIRGO"
+"10197",10206,"Shabrami","Jamiyl","Jamiyl Shabrami","ca","059","SHABRAMI","JAMIYL"
+"10259",10268,"McKamey-Lopes","Janne","Janne McKamey-Lopes","ga","121","MCKAMEY-LOPES","JANNE"
+"10455",10464,"Torres-Lugo","Jazmin","Jazmin G. Torres-Lugo","oh","035","TORRES-LUGO","JAZMIN"
+"11053",11063,"Nemarow","Jeryl","Jeryl Lynn Nemarow","ny","119","NEMAROW","JERYL"
+"11102",11112,"Smaili","Jihad","Jihad M. Smaili","oh","035","SMAILI","JIHAD"
+"13536",13548,"Caubarreaux","Keller","Keller Caubarreaux","co","077","CAUBARREAUX","KELLER"
+"14022",14036,"Chrisomallides","Kiki","Kiki Chrisomallides","ny","119","CHRISOMALLIDES","KIKI"
+"14066",14080,"Leyser-Vercher","Kimmie","Kimmie Beard Leyser-Vercher","la","079","LEYSER-VERCHER","KIMMIE"
+"14096",14110,"Tysman","Kissandra","Kissandra Lorelle Tysman","az","013","TYSMAN","KISSANDRA"
+"14099",14113,"Bazianos","Konstandeno","Konstandeno S Bazianos","il","043","BAZIANOS","KONSTANDENO"
+"14205",14219,"Slege","","L D Slege","la","033","SLEGE",""
+"14207",14221,"Romolini","Gazzara","L Gazzara Romolini","pa","101","ROMOLINI","GAZZARA"
+"14244",14258,"Buholz","Laddie","Laddie Allen Buholz","fl","095","BUHOLZ","LADDIE"
+"14250",14264,"Concepcion-Veloso","Laline","Laline Concepcion-Veloso","fl","086","CONCEPCION-VELOSO","LALINE"
+"14253",14267,"Forghany","Lamya","Lamya A. Forghany, Esq.","ma","009","FORGHANY","LAMYA"
+"14276",14290,"Pollans","Lannie","Lannie A Pollans","il","031","POLLANS","LANNIE"
+"14374",14388,"Korduba","Laryssa","Laryssa Maria Korduba","tx","201","KORDUBA","LARYSSA"
+"14572",14586,"Reddick-Hood","Laxavier","Laxavier P. Reddick-Hood","ga","089","REDDICK-HOOD","LAXAVIER"
+"14585",14599,"King-Wade","Lecia","Lecia C. King-Wade","ga","121","KING-WADE","LECIA"
+"14772",14786,"Copeley","Leto","Leto Copeley","nc","063","COPELEY","LETO"
+"14773",14787,"Merryday","Lew","Lew A. Merryday Jr.","fl","107","MERRYDAY","LEW"
+"14791",14805,"Herrera-Navarrete","Librada","Librada G. Herrera-Navarrete","fl","086","HERRERA-NAVARRETE","LIBRADA"
+"15080",15094,"Aprigliano","Ludovico","Ludovico Aprigliano","nj","027","APRIGLIANO","LUDOVICO"
+"15099",15113,"Makohin","Lundy","Lundy Partin Makohin","ok","109","MAKOHIN","LUNDY"
+"15155",15170,"Marchan-Mankus","MarchanMankus","M Marchan-Mankus","il","089","MARCHAN-MANKUS","MARCHANMANKUS"
+"15198",15213,"Padway","Nicol","M. Nicol Padway","wi","079","PADWAY","NICOL"
+"15217",15232,"Deorchis","","M.E. Deorchis","ny","061","DEORCHIS",""
+"15221",15236,"Ekpenisi","Macauley","Macauley Ekpenisi","ca","037","EKPENISI","MACAULEY"
+"15239",15254,"Esteban-Trinidad","Maile","Maile Lani Esteban-Trinidad","nv","003","ESTEBAN-TRINIDAD","MAILE"
+"15266",15281,"Holadia","Manolita","Manolita Akiko Holadia","va","810","HOLADIA","MANOLITA"
+"15409",15425,"Kostorizos","MariaElena","Maria-Elena Kostorizos","ma","017","KOSTORIZOS","MARIAELENA"
+"15434",15451,"Czapelski","Marica","Marica L Czapelski","nj","039","CZAPELSKI","MARICA"
+"15435",15452,"Tahimic","Marichelle","Marichelle Tahimic","ca","071","TAHIMIC","MARICHELLE"
+"15473",15490,"Karayannis","Marios","Marios Karayannis","il","089","KARAYANNIS","MARIOS"
+"15474",15491,"Rushevics","Maris","Maris Rushevics","wi","097","RUSHEVICS","MARIS"
+"15907",15924,"Jeep","Markham","Markham M. Jeep","il","097","JEEP","MARKHAM"
+"15939",15956,"Vehik","Mart","Mart Vehik","ar","119","VEHIK","MART"
+"16051",16068,"Sterbcow","Marx","Marx David Sterbcow","la","071","STERBCOW","MARX"
+"16123",16141,"Sherrett","Maryhelen","Maryhelen Sherrett","or","005","SHERRETT","MARYHELEN"
+"16129",16147,"Slechter","Mat","Mat A Slechter","ky","111","SLECHTER","MAT"
+"16130",16148,"Rimac","Mate","Mate Rimac","oh","133","RIMAC","MATE"
+"16138",16156,"Jarve","Mati","Mati Jarve","nj","005","JARVE","MATI"
+"16346",16364,"Savoiardo","Maurizio","Maurizio Savoiardo III","ny","061","SAVOIARDO","MAURIZIO"
+"16413",16431,"Mkrtichian","Meline","Meline Mkrtichian","ca","037","MKRTICHIAN","MELINE"
+"16462",16480,"Jean-Jerome","Menez","Menez Jean-Jerome","ny","081","JEAN-JEROME","MENEZ"
+"16481",16499,"Elijaouhari","Mervatt","Mervatt F. Elijaouhari","la","071","ELIJAOUHARI","MERVATT"
+"17689",17708,"Muscante","Falco","Mr. Falco A. Muscante, Esq","pa","003","MUSCANTE","FALCO"
+"17742",17761,"Austin-Trucks","Pratt","Ms. J. Pratt Austin-Trucks","al","051","AUSTIN-TRUCKS","PRATT"
+"17791",17810,"Naumoski","Nace","Nace Naumoski","nj","013","NAUMOSKI","NACE"
+"17831",17850,"Palissery","Nanda","Nanda Palissery","pa","079","PALISSERY","NANDA"
+"17957",17976,"Kompier","Nels","Nels A. Kompier","in","089","KOMPIER","NELS"
+"18050",18069,"Hanyard","Nicol","Nicol Joy Hanyard","ga","121","HANYARD","NICOL"
+"18072",18091,"Mehanna","Nijad","Nijad Georges Mehanna","mi","099","MEHANNA","NIJAD"
+"18101",18120,"Drafahl","Noland","Noland D. Drafahl","mo","189","DRAFAHL","NOLAND"
+"18161",18180,"Meroueh","Odey","Odey K. Meroueh","mi","163","MEROUEH","ODEY"
+"18164",18183,"Maduforo","Okwy","Okwy Maduforo","tx","113","MADUFORO","OKWY"
+"18167",18186,"Dekajlo","Oleh","Oleh N. Dekajlo, Esq.","ny","059","DEKAJLO","OLEH"
+"18168",18187,"Podryhula","Oleh","Oleh Podryhula","ma","001","PODRYHULA","OLEH"
+"18230",18250,"Wohlner","Pacey","Pacey L Wohlner","mo","095","WOHLNER","PACEY"
+"18269",18289,"Topalis","Panos","Panos T. Topalis","il","031","TOPALIS","PANOS"
+"18793",18816,"Ben-Cohen","Pejman","Pejman A. Ben-Cohen","ca","037","BEN-COHEN","PEJMAN"
+"18804",18827,"Nawawi","Peri","Peri S Nawawi","ma","017","NAWAWI","PERI"
+"19146",19169,"Stakelum","Piercy","Piercy Joseph Stakelum IV.","fl","095","STAKELUM","PIERCY"
+"19215",19238,"Eaglesfield","Davy","R. Davy Eaglesfield","in","157","EAGLESFIELD","DAVY"
+"19236",19259,"Vanzego","","R. J. Vanzego Jr.","md","033","VANZEGO",""
+"19375",19398,"Bahrawy","Ramsey","Ramsey A. Bahrawy","ma","009","BAHRAWY","RAMSEY"
+"19376",19399,"Sheeno","Ramsin","Ramsin Sheeno","ca","037","SHEENO","RAMSIN"
+"19377",19400,"Sadighim","Ramtin","Ramtin Sadighim","ca","037","SADIGHIM","RAMTIN"
+"19658",19682,"Atie","Remond","Remond A. Atie, Esq.","mi","125","ATIE","REMOND"
+"19708",19732,"Kwentua","Rica","Rica Harris Kwentua","la","033","KWENTUA","RICA"
+"21230",21256,"Cantacuzene","Rodion","Rodion Cantacuzene Jr.","tx","329","CANTACUZENE","RODION"
+"21584",21610,"Sharifov","Rovshan","Rovshan Sharifov, Esq.","ny","059","SHARIFOV","ROVSHAN"
+"21774",21800,"Michelstetter","","S H Michelstetter II","wi","079","MICHELSTETTER",""
+"21810",21836,"Blaik","Salah","Salah E. Blaik, Esq.","pa","003","BLAIK","SALAH"
+"23488",23515,"Nazif","","Sy J. Nazif, Esq.","ca","059","NAZIF",""
+"23532",23559,"Elkie","Tait","Tait D. Elkie","az","013","ELKIE","TAIT"
+"23764",23791,"Basdekis","Theodoros","Theodoros Basdekis","ny","025","BASDEKIS","THEODOROS"
+"24533",24563,"Salottolo","Tobi","Tobi R. Salottolo","ny","061","SALOTTOLO","TOBI"
+"24764",24794,"Puntenney","Trysta","Trysta Puntenney","az","013","PUNTENNEY","TRYSTA"
+"24801",24831,"Taenzer","Uri","Uri Hugo Taenzer","nj","005","TAENZER","URI"
+"24833",24863,"Kirifides","Vasil","Vasil L Kirifides","pa","045","KIRIFIDES","VASIL"
+"24838",24868,"Eskinde","Veleka","Veleka Eskinde","la","071","ESKINDE","VELEKA"
+"24959",24989,"Chirica","Vlad","Vlad V. Chirica","il","031","CHIRICA","VLAD"
+"25024",25054,"Bignault","Paschal","W. Paschal Bignault","ga","051","BIGNAULT","PASCHAL"
+"25059",25089,"Scrantom","","W.G. Scrantom Jr.","ga","215","SCRANTOM",""
+"25947",25978,"Manjencich","Zora","Zora Manjencich","az","013","MANJENCICH","ZORA"
