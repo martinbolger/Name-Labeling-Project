@@ -11,7 +11,15 @@ write_files <- function(bool_indx, file_name){
 
 #Load all the csv files
 
-name_zip_data = read.csv(file = "Dec_18_name_zip_fips_state_with_names.csv", colClasses = c("county" = "character"))
+name_zip_data = read.csv(file = "Dec_20_name_zip_fips_state_with_names.csv", colClasses = c("county" = "character"))
+
+#Remove the enteries with no county
+
+no_county_index = which(name_zip_data$county == 'nan')
+
+no_county = name_zip_data[no_county_index,]
+
+name_zip_data = name_zip_data[-no_county_index,]
 
 name_zip_data$first.name = gsub("[[:punct:]]", "", name_zip_data$first.name)
 
@@ -64,6 +72,9 @@ write_files(only_first_missing, 'missing_first_names.csv')
 
 write_files(both_missing, 'missing_both_names.csv')
 
+write.csv(no_county, file = 'no_county.csv')
+
+
 
 
 
@@ -75,7 +86,11 @@ missing_first_names = read.csv(file = 'missing_first_names.csv')
 
 missing_surnames = read.csv(file = 'missing_surnames.csv')
 
-nrow(first_last_names) + nrow(missing_both_names) + nrow(missing_first_names) + nrow(missing_surnames)
+no_county = read.csv(file = 'no_county.csv')
+
+name_zip_data = read.csv(file = "Dec_18_name_zip_fips_state_with_names.csv", colClasses = c("county" = "character"))
+
+nrow(first_last_names) + nrow(missing_both_names) + nrow(missing_first_names) + nrow(missing_surnames) + nrow(no_county)
 
 nrow(name_zip_data)
 

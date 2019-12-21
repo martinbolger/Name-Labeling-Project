@@ -116,7 +116,7 @@ predict_race <- function(voter.file,
       stop("Voter data frame needs to have a column named surname")
     }
   } else {
-    if (missing(census.geo) || is.null(census.geo) || is.na(census.geo) || census.geo %in% c("county", "tract", "block", "place") == F) {
+    if (missing(census.geo) || is.null(census.geo) || is.na(census.geo) || census.geo %in% c("county", "tract", "block", "place", "no_county") == F) {
       stop("census.geo must be either 'county', 'tract', 'block', or 'place'")
     } else {
       print(paste("Proceeding with Census geographic data at", census.geo, "level..."))
@@ -239,7 +239,8 @@ predict_race <- function(voter.file,
   }
   # return(voter.file)
   ## Pr(Race | Surname, Geolocation, First Name)
-  if (missing(party) && first_name && surname) {
+  
+  if (missing(party) && first_name && surname && census.geo != 'no_county') {
     for (k in 1:length(eth)) {
       voter.file[paste("u", eth[k], sep = "_")] <- voter.file[paste("p", eth[k], sep = "_")] * voter.file[paste("r", eth[k], sep = "_")] *voter.file[paste("f", eth[k], sep = "_")]
     }
@@ -250,7 +251,7 @@ predict_race <- function(voter.file,
   }
   
   ## Pr(Race | Surname, Geolocation)
-  if (missing(party) && first_name == F && surname) {
+  if (missing(party) && first_name == F && surname && census.geo != 'no_county') {
     for (k in 1:length(eth)) {
       voter.file[paste("u", eth[k], sep = "_")] <- voter.file[paste("p", eth[k], sep = "_")] * voter.file[paste("r", eth[k], sep = "_")]
     }
@@ -261,12 +262,22 @@ predict_race <- function(voter.file,
   }
   
   ## Pr(Race |Geolocation)
-  if (missing(party) && first_name == F && surname == F) {
+  if (missing(party) && first_name == F && surname == F && census.geo != 'no_county') {
     # for (k in 1:length(eth)) {
     #   voter.file[paste("u", eth[k], sep = "_")] <- voter.file[paste("r", eth[k], sep = "_")]*pop_race[k]
     # }
     for (k in 1:length(eth)) {
       voter.file[paste("q", eth[k], sep = "_")] <- voter.file[paste("g", eth[k], sep = "_")]
+    }
+  }
+  #If there is no county listed, we need to use the state-level probabilities to figure this out
+  if (census.geo == 'no_county'){
+    for (k in 1:length(eth)) {
+      voter.file[paste("u", eth[k], sep = "_")] <- voter.file[paste("p", eth[k], sep = "_")] * voter.file[paste("r", eth[k], sep = "_")]*voter.file[paste("f", eth[k], sep = "_")]
+    }
+    voter.file$u_tot <- apply(voter.file[paste("u", eth, sep = "_")], 1, sum, na.rm = T)
+    for (k in 1:length(eth)) {
+      voter.file[paste("q", eth[k], sep = "_")] <- voter.file[paste("u", eth[k], sep = "_")] / voter.file$u_tot
     }
   }
   
@@ -285,6 +296,8 @@ predict_race <- function(voter.file,
     voter.file[paste("pred", eth[k], sep = ".")] <- voter.file[paste("q", eth[k], sep = "_")]
   }
   pred <- paste("pred", eth, sep = ".")
+
+  print(voter.file)
   
-  return(voter.file[c(vars.orig, pred, 'pop_totals')])
+  return(voter.file[c(vars.orig, pred)])
 }
