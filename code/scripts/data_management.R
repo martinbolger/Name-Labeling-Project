@@ -31,7 +31,7 @@ library(dplyr)
 
 ## Import data:
 
-nameslist_ds = read.csv("_input/name_data/nameslist.csv")
+nameslist_ds = read.csv("_input/name_data/invalid_names_corrected.csv", colClasses = (FIPS = "character"))
 
 ## ---------------------------
 
@@ -58,13 +58,8 @@ output_path = file.path(getwd(), "c_output", "invalid_names.csv")
 write.csv(nameslist_ds_invalid_names, file = output_path)
 
 
-
 ## SUBSET: Subset to names with fewer than 6 words
 nameslist_ds_subset = nameslist_ds[which(nameslist_ds$word_count <= 5),]
-
-
-
-
 
 # Drop the old ID variable and add a new ID variable
 nameslist_ds_subset = select(nameslist_ds_subset, -1)
@@ -90,10 +85,13 @@ output_ds$lastName_upper <- toupper(as.character(output_ds$lastName))
 output_ds$middleName_upper <- toupper(as.character(output_ds$middleName))
 
 # Make any missing fips code an actual N/A
+output_ds$FIPS = trimws(output_ds$FIPS)
 output_ds$FIPS[output_ds$FIPS == "N/A"] = NA
+output_ds$FIPS = as.numeric(output_ds$FIPS)
 # Pad all FIPS codes so that they contain 5 digits
-output_ds$FIPS_clean <- ifelse(is.na(output_ds$FIPS), NA, sprintf("%05s",output_ds$FIPS))
+output_ds$FIPS_clean <- ifelse(is.na(output_ds$FIPS), NA, sprintf("%05d",output_ds$FIPS))
 output_ds$FIPS_chars = nchar(output_ds$FIPS_clean)
+output_ds$FIPS_clean = as.character(output_ds$FIPS_clean)
 
 
 ## REORDER: Reorder the variables on the output

@@ -26,6 +26,7 @@ library(devtools)
 setwd("~/GitHub/Name-Labeling-Project")
 load_all('wru_martin')
 
+
 ## set working data directory
 setwd("~/GitHub/Name-Labeling-Project/data")
 

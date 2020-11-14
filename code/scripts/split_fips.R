@@ -39,6 +39,12 @@ nameslist_ds = read.csv("b_intermediate/nameslist_clean_with_flags.csv", colClas
 
 ## ---------------------------
 
+## CREATE FUNCTION: Create a function for finding integer(0)
+is.integer0 <- function(x)
+{
+  is.integer(x) && length(x) == 0L
+}
+
 
 ## DATA CHECK: Calcuate the length of the fips codes. Make sure that we don't have any 
 ## truncated values
@@ -69,8 +75,10 @@ write.csv(unsupported_ds, file = output_path)
 
 
 ## SUBSET: Now we can remove any observations from unsupported states
-merged_ds = merged_ds[-which(!is.na(merged_ds$FIPS_state) & is.na(merged_ds$stusps)),]
-
+if(!is.integer0(which(!is.na(merged_ds$FIPS_state) & is.na(merged_ds$stusps)))){
+  merged_ds = merged_ds[-which(!is.na(merged_ds$FIPS_state) & is.na(merged_ds$stusps)),]
+}
+  
 ## OUTPUT: Output the updated dataset as a CSV
 output_path = file.path(getwd(), "b_intermediate", "nameslist_clean_flags_fips.csv")
 write.csv(merged_ds, file = output_path)
