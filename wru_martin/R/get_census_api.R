@@ -32,6 +32,7 @@
 get_census_api <- function(data_url, key, vars, region, retry = 0) {
   if(length(vars) > 50){
     vars <- vec_to_chunk(vars) # Split variables into a list
+    print(vars)
     get <- lapply(vars, function(x) paste(x, sep='', collapse=","))
     data <- lapply(vars, function(x) get_census_api_2(data_url, key, x, region, retry))
     } else {

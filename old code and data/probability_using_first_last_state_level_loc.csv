@@ -1,0 +1,3 @@
+,state.upper,first.name.match,X.x,surname,first.name,name,state,county,first.name.upper,surname.name.upper,first_name_counts,surname_counts,caseid,pred.whi,pred.bla,pred.his,pred.asi,pred.oth
+2,FL,MARY,2,Cecil,Mary,Mary M Cecil,fl,nan,MARY,CECIL,69,1,1,0.939324872,0.039350709,0.012592329,0.001377191,0.007354899
+1,VA,EDWARD,1,Barry,Edward,Edward L. Barry,va,nan,EDWARD,BARRY,205,5,2,0.862493031,0.121248107,0.007169481,0.003795425,0.005293956
