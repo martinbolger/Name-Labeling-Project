@@ -31,10 +31,17 @@ library(dplyr)
 
 ## Import data:
 
-nameslist_ds = read.csv("_input/name_data/invalid_names_corrected.csv", colClasses = (FIPS = "character"))
+nameslist_ds = read.csv("_input/name_data/2_invalid_names_correct.csv", colClasses = (FIPS = "character"))
 
 ## ---------------------------
 
+## DATA CHECK: Make sure that the variables are on the dataset
+stopifnot("Name" %in% colnames(nameslist_ds))
+stopifnot("Street" %in% colnames(nameslist_ds))
+stopifnot("City" %in% colnames(nameslist_ds))
+stopifnot("State" %in% colnames(nameslist_ds))
+stopifnot("ZIP" %in% colnames(nameslist_ds))
+stopifnot("FIPS" %in% colnames(nameslist_ds))
 
 ## CLEANING: This section cleans the names. 
 

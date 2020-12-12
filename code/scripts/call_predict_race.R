@@ -41,18 +41,71 @@ setwd("~/GitHub/Name-Labeling-Project/data")
 
 ## PREDICT: This step calls the census API for each subset of the data to get the predictions
 
-output_first_last_county_ds = predict_race(voter.file = first_last_county_ds, census.geo = "county", census.key = "a3cd003810b4773f865433c80467cb94f95860f2")#, first_name = TRUE, surname = TRUE)
+if (dim(first_last_county_ds)[1] > 0){
+  output_first_last_county_ds = predict_race(voter.file = first_last_county_ds, census.geo = "county", census.key = "a3cd003810b4773f865433c80467cb94f95860f2")#, first_name = TRUE, surname = TRUE)
+}else{
+  output_first_last_county_ds = first_last_county_ds
+  output_first_last_county_ds$pred.whi = numeric(0)
+  output_first_last_county_ds$pred.bla = numeric(0)
+  output_first_last_county_ds$pred.his = numeric(0)
+  output_first_last_county_ds$pred.asi = numeric(0)
+  output_first_last_county_ds$pred.oth = numeric(0)
+}
 
-output_last_county_ds = predict_race(voter.file = last_county_ds, census.geo = "county", census.key = "a3cd003810b4773f865433c80467cb94f95860f2", first_name = FALSE, surname = TRUE)
+if (dim(last_county_ds)[1] > 0){
+  output_last_county_ds = predict_race(voter.file = last_county_ds, census.geo = "county", census.key = "a3cd003810b4773f865433c80467cb94f95860f2", first_name = FALSE, surname = TRUE)
+}else{
+  output_last_county_ds = last_county_ds
+  output_last_county_ds$pred.whi = numeric(0)
+  output_last_county_ds$pred.bla = numeric(0)
+  output_last_county_ds$pred.his = numeric(0)
+  output_last_county_ds$pred.asi = numeric(0)
+  output_last_county_ds$pred.oth = numeric(0)
+}
 
-output_first_county_ds = predict_race(voter.file = first_county_ds, census.geo = "county", census.key = "a3cd003810b4773f865433c80467cb94f95860f2", first_name = TRUE, surname = FALSE)
+if( dim(first_county_ds)[1] > 0){
+  output_first_county_ds = predict_race(voter.file = first_county_ds, census.geo = "county", census.key = "a3cd003810b4773f865433c80467cb94f95860f2", first_name = TRUE, surname = FALSE)
+}else{
+  output_first_county_ds = first_county_ds
+  output_first_county_ds$pred.whi = numeric(0)
+  output_first_county_ds$pred.bla = numeric(0)
+  output_first_county_ds$pred.his = numeric(0)
+  output_first_county_ds$pred.asi = numeric(0)
+  output_first_county_ds$pred.oth = numeric(0)
+}
 
-output_first_last_ds = predict_race(voter.file = first_last_ds, census.geo = "no_county", census.key = "a3cd003810b4773f865433c80467cb94f95860f2", first_name = TRUE, surname = TRUE)
+if(dim(first_last_ds)[1] > 0){
+  output_first_last_ds = predict_race(voter.file = first_last_ds, census.geo = "no_county", census.key = "a3cd003810b4773f865433c80467cb94f95860f2", first_name = TRUE, surname = TRUE)
+}else{
+  output_first_last_ds = first_last_ds
+  output_first_last_ds$pred.whi = numeric(0)
+  output_first_last_ds$pred.bla = numeric(0)
+  output_first_last_ds$pred.his = numeric(0)
+  output_first_last_ds$pred.asi = numeric(0)
+  output_first_last_ds$pred.oth = numeric(0)
+}
 
-output_county_ds = predict_race(voter.file = county_ds, census.geo = "county", census.key = "a3cd003810b4773f865433c80467cb94f95860f2", first_name = FALSE, surname = FALSE)
+if( dim(county_ds)[1] > 0){
+  output_county_ds = predict_race(voter.file = county_ds, census.geo = "county", census.key = "a3cd003810b4773f865433c80467cb94f95860f2", first_name = FALSE, surname = FALSE)
+}else{
+  output_county_ds = county_ds
+  output_county_ds$pred.whi = numeric(0)
+  output_county_ds$pred.bla = numeric(0)
+  output_county_ds$pred.his = numeric(0)
+  output_county_ds$pred.asi = numeric(0)
+  output_county_ds$pred.oth = numeric(0)
+}
 
-output_last_ds = predict_race(voter.file = last_ds, census.geo = "no_county", census.key = "a3cd003810b4773f865433c80467cb94f95860f2", first_name = FALSE, surname = TRUE)
-
+if (dim(last_ds)[1] > 0){
+  output_last_ds = predict_race(voter.file = last_ds, census.geo = "no_county", census.key = "a3cd003810b4773f865433c80467cb94f95860f2", first_name = FALSE, surname = TRUE)
+}else{
+  output_last_ds = last_ds
+  output_last_ds$pred.whi = numeric(0)
+  output_last_ds$pred.bla = numeric(0)
+  output_last_ds$pred.his = numeric(0)
+  output_last_ds$pred.asi = numeric(0)
+  output_last_ds$pred.oth = numeric(0)
+}
 
 ## Rename: The first name probabilities are already on the dataset first_ds, so we just need to 
 ## rename them so that they follow the format of the variable name format of the other datasets.
@@ -98,28 +151,7 @@ output_first_ds$county <- rep(0,nrow(output_first_ds))
 keep_vars = c("ID", "Name", "fullName", "firstName", "middleName", "lastName", "suffix", "salutation", 
               "FIPS", "pred.whi", "pred.bla", "pred.his", "pred.asi", "pred.oth", "first", "last", "county")
 
-## OUTPUT: Output the updated dataset as a CSV
-# output_path = file.path(getwd(), "c_output", "output_first_last_county_ds.csv")
-# write.csv(output_first_last_county_ds[keep_vars], file = output_path)
-# 
-# output_path = file.path(getwd(), "c_output", "output_last_county_ds.csv")
-# write.csv(output_last_county_ds[keep_vars], file = output_path)
-# 
-# output_path = file.path(getwd(), "c_output", "output_first_county_ds.csv")
-# write.csv(output_first_county_ds[keep_vars], file = output_path)
-# 
-# output_path = file.path(getwd(), "c_output", "output_first_last_ds.csv")
-# write.csv(output_first_last_ds[keep_vars], file = output_path)
-# 
-# output_path = file.path(getwd(), "c_output", "output_county_ds.csv")
-# write.csv(output_county_ds[keep_vars], file = output_path)
-# 
-# output_path = file.path(getwd(), "c_output", "output_last_ds.csv")
-# write.csv(output_last_ds[keep_vars], file = output_path)
-# 
-# output_path = file.path(getwd(), "c_output", "output_first_ds.csv")
-# write.csv(output_first_ds[keep_vars], file = output_path)
-
+## STACK: Stack the datasets
 full_stacked_predictions = rbind(output_first_last_county_ds[keep_vars], output_last_county_ds[keep_vars], 
       output_first_county_ds[keep_vars], output_first_last_ds[keep_vars],
       output_county_ds[keep_vars], output_last_ds[keep_vars], output_first_ds[keep_vars])
